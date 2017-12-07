@@ -8,12 +8,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  logoHidden = false;
   constructor(private router: Router) {}
 
   ngOnInit() {
     console.log(this.router.url);
   }
 
+  hide() {
+    this.logoHidden = !this.logoHidden;
+  }
 
 }

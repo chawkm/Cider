@@ -20,7 +20,7 @@ nav{
 img {
   position: absolute center center;
   float: left;
-  height: 20vh;
+  height: 10vh;
   object-fit: contain;
   float: initial;
   padding-left:2rem;
@@ -53,8 +53,17 @@ img {
 
 .hashtag{
   position:fixed;
-  top:21vh;
+  top:11vh;
   left:0;
+}
+
+@media (max-width: 500px) {
+  .site-logo {
+    display: none;
+  }
+  .hashtag {
+    display: none;
+  }
 }
 
 .hashtag span{
