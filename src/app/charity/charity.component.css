@@ -3,9 +3,30 @@
   background: url("../../assets/Photos/wearetherunningcharity.png") rgba(255, 255, 255, 0.8) no-repeat center center fixed;
   background-blend-mode: color;
   */
-  background: url("../../assets/Photos/wearetherunningcharity.png") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../../assets/helicopter.png") no-repeat center center fixed;
+  background-size:  contain;
   padding:4em 0;
+}
+
+.panel-DSAA-logo{
+  background: url("../../assets/DSAA_Logo.jpg") no-repeat center center;
+  background-size:  contain;
+  background-blend-mode: color;
+  padding:4em 0;
+}
+
+.text-DSAA-background {
+  background: rgba(255,255,255,0.95);
+  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Anton', sans-serif; */
+}
+
+.white-bar-text{
+  color: white;
+  font: 800 32px/32px "Anton";
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #011100;
 }
 
 .body-white{
@@ -28,14 +49,6 @@
   opacity: 0;
   transition: 3.5s ease-in-out;
   padding: 5px;
-}
-
-.white-bar-text{
-  color: white;
-  font: 800 32px/32px "open sans";
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 4px 4px 10px #011100, -2px -3px 10px #011100, 4px 5px 10px #011100, 4px 6px 10px #011100;
 }
 
 .body-text {

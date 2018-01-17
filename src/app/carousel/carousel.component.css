@@ -35,7 +35,7 @@ p#cf7_controls {
 #cf7 img {
   position:absolute;
   left: 0%;
-  width: 49.4vw;
+  width: 50vw;
   height: 50vh;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -44,6 +44,13 @@ p#cf7_controls {
   opacity:0;
   object-fit: cover;
 }
+
+@media (max-width: 767px) {
+  #cf7 img {
+    width: 100vw;
+  }
+}
+
 
 #cf7 img.opaque {
   opacity:1;

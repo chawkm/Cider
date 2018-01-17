@@ -55,9 +55,17 @@ img {
   position:fixed;
   top:11vh;
   left:0;
+  z-index: 0;
 }
 
-@media (max-width: 500px) {
+.home {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .home {
+    display: initial;
+  }
   .site-logo {
     display: none;
   }
