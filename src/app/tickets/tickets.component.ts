@@ -10,9 +10,15 @@ import { DomSanitizer } from '@angular/platform-browser/src/security/dom_sanitiz
 })
 export class TicketsComponent implements OnInit {
 
+  mainText1 = false;
+
   constructor() {} 
 
   ngOnInit() {
+
+    setTimeout(() => {
+      this.mainText1 = true;
+    }, 1000)
     
   }
 

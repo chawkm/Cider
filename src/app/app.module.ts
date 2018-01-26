@@ -13,6 +13,7 @@ import { CharityComponent } from './charity/charity.component';
 import { CiderComponent } from './cider/cider.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FooterComponent } from './footer/footer.component';
@@ -31,6 +32,7 @@ import { NavstubComponent } from './navstub/navstub.component';
     CiderComponent,
     TicketsComponent,
     AboutComponent,
+    BlogComponent,
     CarouselComponent,
     GalleryComponent,
     FooterComponent,
@@ -73,6 +75,10 @@ import { NavstubComponent } from './navstub/navstub.component';
       {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: 'blog',
+        component: BlogComponent
       },
       {
         path: 'gallery',

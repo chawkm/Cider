@@ -128,3 +128,7 @@
   background-blend-mode: color;
   padding:4em 0;
 }
+
+.image-link{
+  cursor: pointer;
+}

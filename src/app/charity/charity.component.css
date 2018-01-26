@@ -4,7 +4,7 @@
   background-blend-mode: color;
   */
   background: url("../../assets/helicopter.png") no-repeat center center fixed;
-  background-size:  contain;
+  background-size:  cover;
   padding:4em 0;
 }
 
@@ -22,11 +22,21 @@
 }
 
 .white-bar-text{
+  /*
   color: white;
   font: 800 32px/32px "Anton";
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px #011100;
+  */
+  color: white;
+  font: 800 32px/32px "open sans";
+  text-align: center;
+  text-transform: uppercase;
+  /*
+  text-shadow: 4px 4px 10px #011100, -2px -3px 10px #011100, 4px 5px 10px #011100, 4px 6px 10px #011100;
+  */
+  text-shadow: 0px 0px 15px #000;
 }
 
 .body-white{
@@ -86,4 +96,8 @@
 
 .coming-soon {
   padding: 12vh 0;
+}
+
+.site-padding{
+  height:4em;
 }
