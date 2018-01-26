@@ -1,3 +1,8 @@
+.runner-info {
+  background: gold;
+  color: gold;
+}
+
 .header-background {
   background: url("../../assets/Photos/Generic/kristian2.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -48,4 +53,22 @@
 
 .active {
   opacity: 1 !important;
+}
+
+.ticket-link{
+  background-color:gold;
+  padding:10px 25px;
+  text-transform: uppercase;
+  color:#666666;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:1.1rem;
+  font-weight:bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ticket-link:hover{
+  text-decoration:none;
+  background-color:#FFDA10;
+  color:#747474;
 }
