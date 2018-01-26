@@ -66,3 +66,69 @@
 .running-charity-logo{
   height:5rem;
 }
+
+.cider-producer-image{
+  height:60vh;
+}
+
+.cider-producer-info{
+  height:60vh;
+}
+
+.cider-producer-info-container{
+  margin:1em auto;
+}
+
+.cider-producer-title{
+  font-weight: bold;
+}
+
+.cider-producer-text{
+  font-size:2.5vh;
+}
+
+@media screen and (max-width: 699px) {
+  .cider-producer-text{
+    font-size:3vh;
+  }
+}
+
+#producerImage1{
+  background-image: url("../../assets/Photos/Cider/brothers-cartons.png");
+  background-size: cover;
+}
+#producerInfo1{
+  background: url("../../assets/Photos/Cider/brothers-cartons.png") rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
+  background-size: cover;
+}
+
+#producerImage2{
+  background-image: url("../../assets/Photos/Cider/whites-summergold.png");
+  background-size: cover;
+}
+#producerInfo2{
+  background: url("../../assets/Photos/Cider/whites-summergold.png") rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
+  background-size: cover;
+}
+
+#producerImage3{
+  background-image: url("../../assets/Photos/Cider/cornishorchards.png");
+  background-size: cover;
+}
+#producerInfo3{
+  background: url("../../assets/Photos/Cider/cornishorchards.png") rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
+  background-size: cover;
+}
+
+#producerImage4{
+  background-image: url("../../assets/Photos/Cider/wilkins-cider.jpg");
+  background-size: cover;
+}
+#producerInfo4{
+  background: url("../../assets/Photos/Cider/wilkins-cider.jpg") rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
+  background-size: cover;
+}

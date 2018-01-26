@@ -2,11 +2,45 @@
   background: url("../../assets/Photos/Generic/kristian2.jpg") rgba(255, 255, 255, 0.5) no-repeat center center fixed;
   background-size: cover;
   background-blend-mode: color;
-  padding:2em;
+  padding:2em 0;
+}
+
+.body-white{
+  background-color:white;
+  padding:2em 0;
+}
+
+.white h2 {
+  text-align: center;
+  opacity: 0;
+  transition: 3.5s ease-in-out;
+  padding: 5px;
+}
+
+.white-bar-text{
+  color: white;
+  font: 800 32px/32px "open sans";
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 10px #011100, -2px -3px 10px #011100, 4px 5px 10px #011100, 4px 6px 10px #011100;
+}
+
+.active {
+  opacity: 1 !important;
 }
 
 .nav-padding {
   height: 20vh;
+}
+
+.ticket-icon {
+  height:3em;
+  margin:1em auto 0.2em auto;
+}
+
+.icon-text{
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .ticket-panel{
@@ -86,6 +120,10 @@
   border:0;
   width:calc(100% + 19px);
   height: 100vh;
+}
+
+.site-padding{
+  height:4em;
 }
 
 /*
