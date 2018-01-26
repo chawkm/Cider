@@ -57,5 +57,6 @@
 }
 
 .blog-gif{
-  height: 250px;
+  height: 35vh;
+  max-width: 100%;
 }
