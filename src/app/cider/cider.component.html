@@ -7,7 +7,7 @@
       <div class="col">
         <div class="white">
           <h2 [class.active]="mainText1"><span class="white-bar-text">Run. Taste. Explore.</span></h2>
-          <h2 [class.active]="mainText2"><span class="white-bar-text">Producers to be announced.</span></h2>
+          <!-- <h2 [class.active]="mainText2"><span class="white-bar-text">Producers to be announced.</span></h2> -->
         </div>
       </div>
     </div>
@@ -35,11 +35,11 @@
       </div>
     </div>
     <div class="row">
-      
+
       <div class="col-sm-12 col-md-3 cider-producer-image" id="producerImage1" (mouseenter)="showProducerInfo('1')"></div>
       <div class="col-sm-12 col-md-3 cider-producer-info" id="producerInfo1" (mouseleave)="hideProducerInfo('1')" style="display:none;">
         <div class="cider-producer-info-container">
-          <p class="cider-producer-title">Brothers</p>
+          <a href="http://www.brotherscider.co.uk"><p class="cider-producer-title">Brothers</p></a>
           <p class="cider-producer-text">
             Cider made by real brothers! 4 brothers have been making their cider for 14 generations. They first started selling their Pear Cider at the Glastonbury Festival in 1995 near what was then called the Jazz World Stage. Joining us at the Ciderthon they will certainly be bringing that festival feel to your run alongside their fruity greatness.
           </p>
@@ -49,7 +49,7 @@
       <div class="col-sm-12 col-md-3 cider-producer-image" id="producerImage2" (mouseenter)="showProducerInfo('2')"></div>
       <div class="col-sm-12 col-md-3 cider-producer-info" id="producerInfo2" (mouseleave)="hideProducerInfo('2')" style="display:none;">
         <div class="cider-producer-info-container">
-          <p class="cider-producer-title">Millwhites</p>
+          <a href="http://www.millwhites.co.uk/"><p class="cider-producer-title">Millwhites</p></a>
           <p class="cider-producer-text">
             From hand selected apples in orchards in the heart of the West Country, Millwhites Cider uses traditional methods while keeping up with the tastes of the modern day cider consumer. Made from 100% pressed juice they have 8 award winning somerset ciders. Along with their Cider Horse Trailer, Millwhites will be ready at The Ciderthon to keep you fuelled and running!
           </p>
@@ -59,7 +59,7 @@
       <div class="col-sm-12 col-md-3 cider-producer-image" id="producerImage3" (mouseenter)="showProducerInfo('3')"></div>
       <div class="col-sm-12 col-md-3 cider-producer-info" id="producerInfo3" (mouseleave)="hideProducerInfo('3')" style="display:none;">
         <div class="cider-producer-info-container">
-          <p class="cider-producer-title">The Stable</p>
+          <a href="https://stablepizza.com/cider-3/"><p class="cider-producer-title">The Stable</p></a>
           <p class="cider-producer-text">
             The Stable will be joining The Ciderthon presenting their prize cider Cornish Orchards. But along with this is their FLAGON WAGON which will bring a whole new atmosphere to the finish line. Fitted with The Stables Cider Masters, you’ll glug the full amount of their offerings from upscale elegant sparklers, to rough and ready scrumpys.
           </p>
@@ -69,7 +69,7 @@
       <div class="col-sm-12 col-md-3 cider-producer-image" id="producerImage4" (mouseenter)="showProducerInfo('4')"></div>
       <div class="col-sm-12 col-md-3 cider-producer-info" id="producerInfo4" (mouseleave)="hideProducerInfo('4')" style="display:none;">
         <div class="cider-producer-info-container">
-          <p class="cider-producer-title">Wilkins Cider</p>
+          <a href="http://wilkinscider.com/"><p class="cider-producer-title">Wilkins Cider</p></a>
           <p class="cider-producer-text">
             If you’ve been to Lands End Farm and had a farmhouse cider served by Roger Wilkins himself, you’ll know you’re in the heart of Somerset. It’s just some barrels and a cider barn working their magic in Mudgley, and its just that which they’re bringing to The Ciderthon.
           </p>
@@ -77,7 +77,7 @@
       </div>
 
     </div>
-  
+
     <div class="row">
       <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
         <p class="body-text text-center">

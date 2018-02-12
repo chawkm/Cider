@@ -77,6 +77,11 @@
   color:black;
 }
 
+.ticket-sold-out{
+  color: #f0d0a3;
+  text-decoration: line-through;
+}
+
 .ticket-main{
   font-weight:bold;
   font-size:1.1em;
