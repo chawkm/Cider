@@ -1,7 +1,6 @@
 .header-background{
-  background: url("../../assets/Photos/Generic/kristian2.jpg") no-repeat center center fixed;
-  background-size: cover;
-  padding:4em 0;
+  background-color: black;
+  height: 100vh;
 }
 
 .body-background{
@@ -16,6 +15,18 @@
   font-family: 'Anton', sans-serif;
   font-size:2rem;
   color:black;
+}
+
+.video-container{
+  height:100vh;
+}
+
+#ciderthonVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height:100vh;
+  min-width:100vw;
 }
 
 .white h2{
@@ -52,11 +63,11 @@
 
 .info-link{
   background-color:gold;
-  padding: 3px 3px;
+  padding: 3px 1em;
   text-transform: uppercase;
   color:#666666;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size:1.3rem;
+  font-size:1.8rem;
   font-weight:bold;
   line-height: 1.5rem;
   text-align: center;

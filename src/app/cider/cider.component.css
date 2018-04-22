@@ -68,11 +68,17 @@
 }
 
 .cider-producer-image{
-  height:60vh;
+  height:50vh;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .cider-producer-info{
-  height:60vh;
+  height:50vh;
+  background: rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
+  background-size: cover;
 }
 
 .cider-producer-info-container{
@@ -94,41 +100,38 @@
 }
 
 #producerImage1{
-  background-image: url("../../assets/Photos/Cider/brothers-cartons.png");
-  background-size: cover;
-}
-#producerInfo1{
-  background: url("../../assets/Photos/Cider/brothers-cartons.png") rgba(255, 255, 255, 0.8);
-  background-blend-mode: color;
-  background-size: cover;
+  background-image: url("../../assets/Logo/beard-saber.png");
 }
 
 #producerImage2{
-  background-image: url("../../assets/Photos/Cider/whites-summergold.png");
-  background-size: cover;
-}
-#producerInfo2{
-  background: url("../../assets/Photos/Cider/whites-summergold.png") rgba(255, 255, 255, 0.8);
-  background-blend-mode: color;
-  background-size: cover;
+  background-image: url("../../assets/Logo/brothers.png");
 }
 
 #producerImage3{
-  background-image: url("../../assets/Photos/Cider/cornishorchards.png");
-  background-size: cover;
-}
-#producerInfo3{
-  background: url("../../assets/Photos/Cider/cornishorchards.png") rgba(255, 255, 255, 0.8);
-  background-blend-mode: color;
-  background-size: cover;
+  background-image: url("../../assets/Logo/bumble-bee-cider.png");
+  background-color: #FFDA10;
 }
 
 #producerImage4{
-  background-image: url("../../assets/Photos/Cider/wilkins-cider.jpg");
-  background-size: cover;
+  background-image: url("../../assets/Logo/crafty-nectar.png");
 }
-#producerInfo4{
-  background: url("../../assets/Photos/Cider/wilkins-cider.jpg") rgba(255, 255, 255, 0.8);
-  background-blend-mode: color;
-  background-size: cover;
+
+#producerImage5{
+  background-image: url("../../assets/Logo/loxley.jpg");
+}
+
+#producerImage6{
+  background-image: url("../../assets/Logo/millwhites.png");
+}
+
+#producerImage7{
+  background-image: url("../../assets/Logo/orchard-pig.jpg");
+}
+
+#producerImage8{
+  background-image: url("../../assets/Logo/stable.jpg");
+}
+
+#producerImage9{
+  background-image: url("../../assets/Logo/taunton-cider.png");
 }

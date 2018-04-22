@@ -3,13 +3,11 @@
   <div class="nav-padding"></div>
 
   <div class="container-fluid">
-    <div class="row">
+    <div class="row no-gutters video-container">
       <div class="col">
-        <div class="white">
-          <h2 [class.active]="mainText1"><span class="white-bar-text">Fancy a challenge?</span></h2>
-          <h2 [class.active]="mainText2"><span class="white-bar-text">Run a half marathon in Somerset</span></h2>
-          <h2 [class.active]="mainText3"><span class="white-bar-text">Fuelled by Cider</span></h2>
-        </div>
+        <video autoplay muted loop id="ciderthonVideo">
+          <source src="assets/Videos/ciderthon-main.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
@@ -19,6 +17,7 @@
 
 
 <div class="container-fluid body-background">
+  
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
@@ -32,11 +31,23 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <p class="body-header text-center">Become a CIDERTHONER</p>
+        <p class="body-header text-center">29th April | Wells, Somerset</p>
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col">
+      <p class="text-center">
+        <a class="info-link" href="tickets/">  Last chance to get your tickets!  </a>
+      </p>
+    </div>
+  </div>
+
 </div>
+
+
+<!--
 
 <div class="container-fluid">
   <div class="row">
@@ -46,18 +57,7 @@
       </p>
     </div>
   </div>
-</div>
-
-
-<div class="container-fluid carousel-container">
-  <div class="row no-gutters">
-    <div class="col-12 col-md-6">
-        <app-carousel [images]="images1" [text]="'Be a part of one of the first events of its kind'"></app-carousel>
-    </div>
-    <div class="col-12 col-md-6">
-        <app-carousel [images]="images2" [text]="'Join the challenge'"></app-carousel>
-    </div>
-  </div>
-</div>
+  
+-->
 
 <app-footer></app-footer>

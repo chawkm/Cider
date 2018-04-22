@@ -18,6 +18,15 @@
   background-size: contain;
 }
 
+.the-route{
+  font-weight: 600;
+  background-color: #FFDA10;
+  padding:1em;
+}
+.the-route > span{
+  font-weight: 900;
+}
+
 .route-video{
   margin-top:2em;
   padding:auto;
@@ -26,4 +35,33 @@
 
 video {
   width: 100%;
+}
+
+.body-white{
+  margin:3em 0;
+}
+
+.panel-black{
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-black p{
+  color:white;
+  margin:3em 0;
+  font-size:1.5em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.panel-image-3{
+  background: url("../../assets/Photos/Generic/glastonbury.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: color;
+  padding:4em 0;
+}
+
+.image-link{
+  cursor: pointer;
 }

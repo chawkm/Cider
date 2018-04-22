@@ -8,6 +8,7 @@
 .body-white{
   background-color:white;
   padding:2em 0;
+  margin-top:3em;
 }
 
 .white h2 {
@@ -131,187 +132,28 @@
   height:4em;
 }
 
-/*
-
-.container2 {
-  background: url("../../assets/Photos/Generic/kristian2.jpg") rgba(255,255,255,0.85) no-repeat center center fixed;
-  background-size: cover;
-  background-blend-mode: color;
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 2em 0;
-}
-
-.topText {
-  background-color: rgba(0,0,0,0);
-  text-align: center;
-}
-
-.dark{
-  background: url("../../assets/Photos/Generic/kristian2.jpg") rgba(0,0,0,0.65)  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: color;
-  font-size: 1.2rem;
-  padding: 2% 5% 2% 5%;
-  // padding-bottom: px;
-  text-align: center;
-}
-
-.darkLight{
-  background: url("../../assets/Photos/Generic/kristian2.jpg") rgba(0,0,0,0.45)  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: color;
-  font-size: 1.2rem;
-  padding: 5% 20% 5% 20%;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.red{
-  color: #ef4723;
-}
-.kirsten {
-  background: url("../../assets/Photos/Generic/kristian2.jpg") no-repeat center center fixed;
-  background-size: cover;
-  // margin: 0px -20px;
-  height: 50vh;
-}
-.up{
-  margin-top: -40px;
-}
-.stub {
-  height: 50vh;
-}
-
-.banner {
-  padding-top: 50px;
-}
-span.dark {
-  color: black;
-}
-
-.rel {
-  position: relative;
-}
-.bottom-text{
-  position: absolute;
-  bottom: 33%;
-  font-weight: bold;
-  font-size: 3rem;
-  width: 100%;
-  display: none;
-  transition: 0.5s ease-in-out;
-}
-
-
-.joinChallenge {
-  background: url("../../assets/Photos/Generic/bruno-nascimento.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  flex: 1;
-  height: 50vh;
-  transition: 0.7s ease-in-out;
-  background-blend-mode: lighten;
-}
-
-.joinChallenge:hover{
-  background: url("../../assets/Photos/Generic/bruno-nascimento.jpg") rgba(255,255,255,0.8) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: lighten;
-  .bottom-text {
-    display: block;
-  }
-}
-
-.firstEvent {
-  background: url("../../assets/Photos/Generic/image 9.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  flex: 1;
-  height: 50vh;
-  transition: 0.7s ease-in-out;
-  background-blend-mode: lighten;
-}
-
-.firstEvent:hover{
-  background: url("../../assets/Photos/Generic/image 9.jpg") rgba(255,255,255,0.8) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: lighten;
-  .bottom-text {
-    display: block;
-  }
-}
-
-.sample h1 {
-	color: #222;
-	font: 800 64px/64px "open sans";
-	margin: 0 0 0px 0;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.sample#nietzsche h1 span {
-	text-transform: none;
-  font-size: 3rem;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.sample#nietzsche h1 span.kern {
-	margin: 0 4px 0 -10px;
-}
-
-.sample#nietzsche h2 {
-  color: #222;
+.info-link{
+  background-color:gold;
+  padding: 3px 1em;
   text-transform: uppercase;
-}
-
-.sample#nietzsche h2 span {
-	background: gold;
-	padding: 0 20px;
-	position: relative;
-	top: -10px;
-  z-index: 3;
-}
-
-.sample#nietzsche p {
-	color: #222;
-	margin: 0;
-}
-
-.container {
-  display: flex;
-}
-
-.fixer {
-  position: fixed;
-}
-
-.wide {
+  color:#666666;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:1.8rem;
+  font-weight:bold;
+  line-height: 1.8rem;
   text-align: center;
-  flex: 1;
-}
-.center {
-  padding-top: 0px;
-  text-align: center;
+  border-radius: 3px;
 }
 
-*/
+.prize-image{
+  text-align: center;
+  margin-top:3em;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prize-image > img{
+  width:50%;
+}
